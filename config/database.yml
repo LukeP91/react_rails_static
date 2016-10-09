@@ -5,7 +5,8 @@ default: &default
 
 development:
   <<: *default
-
+  database: react_rails_static_development
+  
 test:
   <<: *default
   database: react_rails_static_test
